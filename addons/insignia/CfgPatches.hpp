@@ -1,9 +1,14 @@
+/*
+ * Author: Moony
+ * Declares the MMA insignia addon patch and metadata.
+ */
+
 class CfgPatches {
-	class MMM_INSIGNIA {
-		name = "Moonys Magnificent Modules - Insignia";
+	class ADDON {
+		name = "Moonys Magnificent Additions - Insignia";
 		author = "Moony";
 		requiredAddons[] = {};
-		requiredVersion = 0.1;
+		requiredVersion = 1.32;
 		units[] = {};
 		weapons[] = {};
 	};

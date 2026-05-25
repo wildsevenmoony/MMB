@@ -1,9 +1,19 @@
+/*
+ * Author: Moony
+ * Declares the main MMA addon patch, dependencies, and metadata.
+ */
+
 class CfgPatches {
-	class MMM_MAIN {
-		name = "Moonys Magnificent Modules";
+	class ADDON {
+		name = "Moonys Magnificent Additions";
 		author = "Moony";
-		requiredAddons[] = {};
-		requiredVersion = 0.1;
+		requiredAddons[] = {
+			"A3_Modules_F_Curator",
+			"ace_movement",
+			"CBA_Main",
+			"cba_ui"
+		};
+		requiredVersion = 1.32;
 		units[] = {};
 		weapons[] = {};
 	};
