@@ -1,0 +1,12 @@
+name = "Moony's Magnificent Additions";
+picture = "mma.paa";
+logo = "mma.paa";
+logoOver = "mma.paa";
+tooltip = "Moony's Magnificent Additions";
+tooltipOwned = "Moony's Magnificent Additions";
+overview = "Gameplay additions, quality-of-life tweaks, and compatibility patches.";
+author = "Moony";
+overviewPicture = "mma.paa";
+overviewText = "Moony's Magnificent Additions";
+hideName = 0;
+hidePicture = 0;
