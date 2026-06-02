@@ -1,15 +1,15 @@
-name = "Moony's Magnificent Additions"
+name = "Moony's Magnificent Base"
 author = "Moony"
-prefix = "mma"
+prefix = "mmb"
 mainprefix = "z"
 
 [files]
 include = [
-    "mma.paa",
+    "mmb.paa",
 ]
 
 [version]
-major = 1
+major = 0
 minor = 1
-patch = 3
+patch = 0
 build = 0

@@ -13,7 +13,7 @@
  * String with the requested text replaced <STRING>
  *
  * Example:
- * ["turban_02", "02", "03"] call MMA_fnc_replaceInString
+ * ["turban_02", "02", "03"] call MMB_fnc_replaceInString
  *
  * Public: No
  */

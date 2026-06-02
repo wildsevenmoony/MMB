@@ -1,19 +1,20 @@
 /*
  * Author: Moony
- * Declares the main MMA addon patch, dependencies, and metadata.
+ * Declares the main MMB addon patch, dependencies, and metadata.
  */
 
 class CfgPatches {
 	class ADDON {
-		name = "Moonys Magnificent Additions";
+		name = "Moony's Magnificent Base";
 		author = "Moony";
 		requiredAddons[] = {
 			"A3_Modules_F_Curator",
 			"ace_movement",
 			"CBA_Main",
+			"cba_settings",
 			"cba_ui"
 		};
-		requiredVersion = 1.32;
+		requiredVersion = 1.56;
 		units[] = {};
 		weapons[] = {};
 	};

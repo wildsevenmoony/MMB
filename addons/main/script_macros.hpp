@@ -68,6 +68,6 @@
 #define ARR_3(var1,var2,var3) var1, var2, var3
 
 #define PATHTOF_SYS(var1,var2,var3) \z\var1\addons\var2\var3
-#define PATHTOF(var1) QUOTE(PATHTOF_SYS(mma,COMPONENT,var1))
+#define PATHTOF(var1) QUOTE(PATHTOF_SYS(mmb,COMPONENT,var1))
 #define PATHTOEF_SYS(var1,var2,var3) \z\var1\addons\var2\var3
-#define PATHTOEF(var1,var2) QUOTE(PATHTOEF_SYS(mma,var1,var2))
+#define PATHTOEF(var1,var2) QUOTE(PATHTOEF_SYS(mmb,var1,var2))

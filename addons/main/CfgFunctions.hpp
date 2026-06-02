@@ -1,6 +1,6 @@
 /*
  * Author: Moony
- * Registers MMA scripted functions by category.
+ * Registers MMB core scripted functions by category.
  */
 
 class CfgFunctions
@@ -10,33 +10,19 @@ class CfgFunctions
 		class Misc
 		{
 			file = PATHTOF(fnc\misc);
-			//class aceKnockout {};
-			class aceSilentkill {};
-			class hideBodyProgress {};
-			class inHouse{};
-			class replaceInString{};
-			class turbanDown{};
-			class turbanUp{};
+			class parseClassnameList {};
+			class replaceInString {};
 		};
 
-		class HideBody
+		class Dialog
 		{
-			file = PATHTOF(fnc\hidebody);
-			class hideBodyAction{};
-			class hideBodyNoToolInside{};
-			class hideBodyNoToolOutside{};
-			class hideBodyToolInside{};
-			class hideBodyToolOutside{};
-		};
-		class ZeusAction
-		{
-			file = PATHTOF(fnc\zeusaction);
-			class zeusActionDemotion{};
-			class zeusActionDemotionExec{};
-			class zeusActionInitAdmin{};
-			class zeusActionPromotion{};
-			class zeusActionPromotionExec{};
-			class zeusActionPromotionHandleDC{};
+			file = PATHTOF(fnc\dialog);
+			class collectDisplayValues {};
+			class confirmDisplay {};
+			class exportDisplayValues {};
+			class importDisplayValues {};
+			class initDisplay {};
+			class initDisplayPositioning {};
 		};
 
 	};
