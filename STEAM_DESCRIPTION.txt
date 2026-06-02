@@ -1,8 +1,10 @@
-Moony's Magnificent Base is the shared base mod for my other Moony's Magnificent mods.
+[h1]Moony's Magnificent Base[/h1]
+
+[b]Moony's Magnificent Base[/b], or [b]MMB[/b], is the shared base mod for my other Moony's Magnificent mods.
 
 By itself, it does not try to be flashy. It mostly contains shared helpers, reusable dialog systems, and common settings that the other mods use so I do not have to copy the same stuff into every project again and again.
 
-[h1]What it contains[/h1]
+[b]Features[/b]
 
 [list]
 [*]Shared helper functions.
@@ -12,13 +14,13 @@ By itself, it does not try to be flashy. It mostly contains shared helpers, reus
 [*]Debug logging settings for the Moony's Magnificent mod family.
 [/list]
 
-[h1]Why it exists[/h1]
+[b]Usage[/b]
 
 Moony's Magnificent Computers, Modules, Additions, and future mods can depend on this instead of each carrying their own slightly different copy of the same helper code.
 
 That is the whole idea. Not glamorous, but useful.
 
-[h1]Requirements[/h1]
+[b]Requirements[/b]
 
 [list]
 [*]CBA_A3
