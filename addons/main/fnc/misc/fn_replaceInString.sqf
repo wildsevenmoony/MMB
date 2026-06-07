@@ -1,8 +1,8 @@
 #include "..\..\script_component.hpp"
 
 /*
- * Author: Moony
- * Replaces the first matching text fragment in a string.
+ * Author: IndeedPete, refined by Moony
+ * Replaces every exact matching text fragment in a string.
  *
  * Arguments:
  * 0: Source string <STRING>
@@ -17,17 +17,23 @@
  *
  * Public: No
  */
-params ["_string","_replace","_replaceWith"]; 
+params [
+	["_string", "", [""]],
+	["_replace", "", [""]],
+	["_replaceWith", "", [""]]
+];
 
+if (_replace isEqualTo "") exitWith {_string};
 
-private _pos = (_string find _replace); 
+private _out = "";
+private _remaining = _string;
+private _replaceLength = count _replace;
+private _pos = _remaining find _replace;
 
-if (_pos isEqualTo -1) exitWith { 
-	_string; 
-}; 
-
-if (_pos isEqualTo 0) exitWith { 
-	[_replaceWith,((_string splitString _replace) joinString _replaceWith)] joinString ""; 
+while {_pos >= 0} do {
+	_out = _out + (_remaining select [0, _pos]) + _replaceWith;
+	_remaining = _remaining select [_pos + _replaceLength];
+	_pos = _remaining find _replace;
 };
 
-(_string splitString _replace) joinString _replaceWith;
+_out + _remaining

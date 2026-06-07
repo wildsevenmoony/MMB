@@ -10,8 +10,12 @@ class CfgFunctions
 		class Misc
 		{
 			file = PATHTOF(fnc\misc);
+			class clusterArray {};
+			class createHashMapFromPairs {};
+			class mergeHashMaps {};
 			class parseClassnameList {};
 			class replaceInString {};
+			class trackMarker {};
 		};
 
 		class Dialog

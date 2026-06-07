@@ -6,7 +6,7 @@ MMB contains common systems and helpers that should not belong to one feature mo
 
 ## Features
 
-- Shared string helpers, including classname-list parsing and string replacement.
+- Shared utility helpers for strings, class-name lists, arrays, hash maps, and lightweight tracking markers.
 - Shared reusable dynamic dialog framework used by Zeus/module tooling in companion mods.
 - Dynamic dialog import/export helpers for copying dialog values.
 - Shared CBA settings for debug logging.

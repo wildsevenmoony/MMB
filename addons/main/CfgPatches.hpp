@@ -14,7 +14,7 @@ class CfgPatches {
 			"cba_settings",
 			"cba_ui"
 		};
-		requiredVersion = 1.56;
+		requiredVersion = 2.02;
 		units[] = {};
 		weapons[] = {};
 	};
