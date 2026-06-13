@@ -8,6 +8,7 @@ MMB contains common systems and helpers that should not belong to one feature mo
 
 - Shared utility helpers for strings, class-name lists, arrays, hash maps, and lightweight tracking markers.
 - Shared reusable dynamic dialog framework used by Zeus/module tooling in companion mods.
+- Scrollable dynamic dialog controls for multiline text, combo boxes, toggles, checkboxes, sliders, and compact checkbox selection lists.
 - Dynamic dialog import/export helpers for copying dialog values.
 - Shared CBA settings for debug logging.
 - Shared ACE carry and drag weight settings.

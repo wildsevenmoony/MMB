@@ -9,6 +9,7 @@ By itself, it does not try to be flashy. It mostly contains shared helpers, reus
 [list]
 [*]Shared helper functions.
 [*]Reusable dynamic dialog framework for Zeus/module tools.
+[*]Scrollable dynamic dialog controls for multiline text, combos, toggles, checkboxes, sliders, and compact selection lists.
 [*]Dialog import/export helpers.
 [*]Shared ACE carry and drag weight settings.
 [*]Debug logging settings for the Moony's Magnificent mod family.
