@@ -60,7 +60,7 @@ if (!_isCountText) then {
 
 	while {
 		!isNull _target
-		&& {{alive _x} count units _group > 0}
+		&& {units _group findIf {alive _x} != -1}
 	} do {
 		private _leader = leader _group;
 		if (!isNull _leader) then {
