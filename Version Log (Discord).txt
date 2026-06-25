@@ -1,0 +1,24 @@
+# **Moony's Magnificent Base** - Update DD.MM.YYYY
+-# Version 1.0.1.1
+## Added
+- Shared dynamic dialog framework for companion mods
+- Scrollable dynamic dialog controls for multiline text, combo boxes, toggles, checkboxes, sliders and compact checkbox lists
+- Dialog import/export helpers for reusable module workflows
+- Shared helper functions for strings, classname lists, arrays, hash maps and tracked markers
+- Shared debug logging settings
+- Shared ACE carry and drag weight settings
+## Removed
+- Nothing
+## Changed
+- Moved reusable helper code out of individual mods and into the shared base mod where practical
+- Improved the shared dialog tooling used by MMC, MMM and other companion mods
+
+# **Moony's Magnificent Base** - Initial Release DD.MM.YYYY
+-# Version 1.0.0.0
+## Added
+- Initial shared helper framework for the Moony's Magnificent mod family
+- HEMTT project setup, GitHub documentation and Steam description
+## Removed
+- Nothing
+## Changed
+- Nothing
